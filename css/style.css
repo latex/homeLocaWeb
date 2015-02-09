@@ -267,8 +267,13 @@ body {
 }
 .search-box {
   height: 23px;
-  background-color: red;
   margin-bottom: 15px;
+}
+.search-box input {
+  width: 240px;
+}
+.search-box button {
+  background-position: 0 0;
 }
 .client-box {
   height: 207px;
@@ -364,4 +369,7 @@ ul#boxes li {
 .text-footer {
   color: #535353;
   font: 400 12px / 18px Tahoma;
+}
+.search-box input {
+  border-radius: 4px;
 }
