@@ -141,6 +141,7 @@ body {
   margin: auto;
   padding: auto;
   text-align: left;
+  float: left;
   *zoom: 1;
 }
 .content:before,
@@ -255,6 +256,46 @@ body {
   color: #c0c0bd;
   font-weight: 400;
   font-size: 12px;
+}
+.slider-box {
+  display: inline;
+  width: 64.58333333%;
+  margin: 0 1.04166667%;
+  height: 247px;
+  float: left;
+  background-color: blue;
+}
+.search-box {
+  height: 23px;
+  background-color: red;
+  margin-bottom: 15px;
+}
+.client-box {
+  height: 207px;
+  clear: both;
+  background-color: green;
+}
+.article-main-box {
+  width: 100%;
+  height: auto;
+  *zoom: 1;
+  margin: auto;
+  padding: auto;
+}
+.article-main-box:before,
+.article-main-box:after {
+  content: "";
+  display: table;
+}
+.article-main-box:after {
+  clear: both;
+}
+.left-box {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.04166667%;
+  height: auto;
 }
 .wrap {
   max-width: 960px;
