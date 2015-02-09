@@ -1,7 +1,12 @@
 // out:null
+@import (reference) "variables";
 @column-width: 60;
 @gutter-width: 20;
 @columns: 12;
+.wrap {
+	max-width: @wrap;
+	margin: 0 auto;
+}
 
 @gridsystem-width: (@column-width*@columns) + (@gutter-width*@columns) * 1px;
 @total-width: 100%;
@@ -45,7 +50,6 @@ body {
 }
 
 /*Determine a largura do seu container.*/
-.wrap {
-	max-width: 960px;
-	margin: 0 auto;
-}
+
+
+

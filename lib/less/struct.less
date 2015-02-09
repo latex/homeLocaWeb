@@ -1,70 +1,101 @@
 // out:null
-
-.footer div{
-
-            float:left;
-
+@import (reference) "variables";
+@import (reference) "grid";
+@import (reference) "image";
+.content {
+    width: @wrap;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    .clearfix;
 }
-.footer ul{
-    margin: 10px;
-    paddi: 10px;
-    li{
-        margin: 10px;
-    paddi: 10px;
+
+.header-box {
+    width: 100%;
+    height: auto;
+    .clearfix;
+    margin: auto;
+    padding: auto;
+    .header-img;
+    background-position: 0px 0px;
+}
+
+.logo-box {
+    width: 189px;
+    height: 42px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 22px;
+    margin-bottom: 19px;
+}
+
+.menu {
+    .clearfix;
+    height: 60px;
+    width: 600px;
+    float: right;
+    margin-top: 0;
+    ul li {
+        .separator-img;
+        float: left;
+        padding-top: 30px;
+        a {
+            height: 60px;
+            float: left;
+            text-decoration: none;
+            color: white;
+            padding: 10.5px 11px;
+            vertical-align: bottom;
+        }
     }
 }
 
-.menu ul li {
-display: inline;
-
+.menu ul li a:visited {
+    color: white;
 }
 
-.menu  ul li a {
-float: left; text-decoration: none;
-color: white;
-padding: 10.5px 11px;
-}
-.menu  ul li a:visited {
-color: white;
-}
-.menu  ul li a:hover, .menu  ul li .current {
-color: white;
-
+.menu ul li a:hover,
+.menu ul li .current {
+    color: white;
 }
 
-#footer {
-
-}
-
-.slider {
-    width: 300px;
-    height: 400px;
-}
-
-.search {
- width: 150px;
-
-}
-
-.clients {
-    width: 150px;
-    height: 150px;
-}
-
-.boxheader {
-background-color:#000;
-width: 100%;
-height: auto;
-
-}
-
-.content {
-width: 1437px;
-height: auto;
-margin: auto;
-}
-
-.container {
+.footer-box {
+    width: 100%;
+    height: 350px;
+    .clearfix;
     margin: auto;
-    width: 1477px;
+    padding: auto;
+    .footer-img;
+    background-position: 0px 0px;
+}
+
+.footer-column {
+    float: left;
+    padding-top: 4px;
+    text-align: left;
+    .column(2);
+    word-wrap: break-word;
+    ul {
+        float: left;
+        li{
+            color: #fff;
+            font-weight: 900;
+            font: 15px tahoma;
+        }
+        ul {
+            li {
+                color:#929396;
+                font: 13px Tahoma;
+                font-weight: 700;
+            }
+            ul {
+                li {
+                    color:#c0c0bd;
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 }
