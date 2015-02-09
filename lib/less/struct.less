@@ -3,12 +3,11 @@
 @import (reference) "grid";
 @import (reference) "image";
 .content {
-    width: @wrap;
+   width: 980px;
     height: auto;
     margin: auto;
     padding: auto;
     text-align: left;
-
     float: left;
     .clearfix;
 }
@@ -106,24 +105,32 @@
     .column(8);
     height: 247px;
     float: left;
-    background-color: blue;
+    background: url(/image/slider02.png);
 }
 
 .search-box {
     height: 23px;
     margin-bottom: 15px;
     input{
-        width: 240px;
+       width: 250px;
+       height: 19px;
+        background-color:#e6e6e6;
+        color: #fff;
+
     }
     button{
-           background-position:  0 0;
+        .ok-button;
+        width: 31px;
+        height: 22px;
+        border: none;
+
     }
 }
 
 .client-box {
     height: 207px;
     clear: both;
-    background-color: green;
+    background: url(/image/bgClientes.png);
 }
 
 .article-main-box {
@@ -131,6 +138,7 @@
     height: auto;
     .clearfix;
     margin: auto;
+    margin-top: 40px;
     padding: auto;
 }
 
@@ -138,4 +146,66 @@
     float: left;
     .column(4);
     height: auto;
+}
+
+.info-box {
+    .column(12);
+    height: 107px;
+    background: url(/image/info-bg.png);
+    margin: 30px 0 30px 0;
+    .dinfo{
+       width: auto;
+        float: left;
+        margin: 10px;
+    }
+    p{
+        width: 290px;
+        color: #535353;
+        font: 400 12px / 18px Tahoma;
+    }
+    input{
+        width: 175px;
+        height: 16px;
+
+    }
+    button{
+        background: url(/image/search-button.png);
+        width: 89px;
+        height: 22px;
+    }
+    input[type='checkbox']{
+        background: url(/image/check-on.png);
+        width: 15px;
+        height: 15px;
+
+    }
+    span{
+        color: #535353;
+        font: 400 12px / 18px Tahoma;
+        text-decoration: #535353;
+        text-decoration: underline;
+    }
+    a{
+        color: #a42029;
+        text-decoration: none;
+    }
+}
+
+.last-box {
+    width: 980px;
+    float: left;
+}
+
+.join-box {
+    width: 214px;
+    height: 197px;
+    padding: 10px;
+    h3{
+        color: #d0d0d0;
+        font: 15.59px HelveticaNeueLTStd;
+    }
+    img{
+        margin: 30px 0 0 0 ;
+
+    }
 }
