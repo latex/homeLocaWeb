@@ -139,6 +139,18 @@ body {
   background: url(../../image/sprite.png);
   background-position: -5px -49px;
 }
+.social-box-bg {
+  background: url(../../image/sprite.png);
+  background-position: 0px 0px;
+}
+.social-box-baloon {
+  background: url(../../image/sprite.png);
+  background-position: -135px -38px;
+}
+.social-box-pin {
+  background: url(../../image/sprite.png);
+  background-position: 0px 0px;
+}
 .content {
   width: 980px;
   height: auto;
@@ -361,17 +373,108 @@ body {
   width: 980px;
   float: left;
 }
+.last-box h3 {
+  background: -webkit-linear-gradient(#eeeeee, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: 15.59px tahoma;
+  margin: -5px 0 0 0;
+}
 .join-box {
   width: 214px;
-  height: 197px;
+  float: left;
+  height: 190px;
   padding: 10px;
+  background: url(/image/join-bg.png);
 }
-.join-box h3 {
+.join-box h4 {
   color: #d0d0d0;
-  font: 15.59px HelveticaNeueLTStd;
+  font: 13.59px HelveticaNeueLTStd;
 }
 .join-box img {
-  margin: 30px 0 0 0 ;
+  margin: 30px 0 0 13px;
+  float: left;
+}
+.news-locaweb {
+  width: 346px;
+  height: 187px;
+  float: left;
+  padding: 10px;
+  background: url(/image/new-bg.png);
+  margin-left: 30px;
+}
+.news-locaweb h4 {
+  color: #33382F;
+  font: 13.59px tahoma;
+}
+.news-locaweb img {
+  margin: 10px 0 0 10px;
+  float: left;
+}
+.news-locaweb p {
+  color: #535353;
+  font: 400 12px / 18px Tahoma;
+  line-height: 1.8em;
+}
+.social-box {
+  width: 297px;
+  float: left;
+  border-radius: 5px;
+  margin-left: 30px;
+  background-color: blue;
+}
+.social-box .social-container {
+  width: 100%;
+  height: 237px;
+  background-color: #ccc;
+}
+.social-box .content-social {
+  height: 154px;
+  width: 259px;
+  background-color: green;
+  margin: 30px 0 0 0;
+  float: left;
+}
+.social-box .social-button {
+  background-color: red;
+  width: 37px;
+  height: 157px;
+  float: left;
+  margin: 30px 0 0 0;
+}
+.social-box .social-button .social-button-item {
+  height: 44px;
+  width: 36px;
+  margin: 10px 0 0 0 ;
+  float: left;
+}
+.social-box .social-button .hidem {
+  display: none;
+}
+.social-box .social-button .flikr-box {
+  background-color: pink;
+}
+.social-box .social-button .face-box {
+  background-color: blue;
+}
+.social-box .social-button .youtube-box {
+  background-color: white;
+}
+.social-box .social-button .twitter-box {
+  background-color: #99ccff;
+}
+.social-box-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  float: left;
+}
+.social-box-bottom .ballon {
+  background: url(../../image/sprite.png);
+  background-position: -135px -38px;
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 20px;
 }
 .wrap {
   max-width: 995px;
