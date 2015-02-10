@@ -119,49 +119,49 @@ body {
   text-align: center;
 }
 .sprite {
-  background: url(../../image/sprite.png);
+  background: url(../image/sprite.png);
 }
 .header-img {
-  background: url(../../image/header-bg.png);
+  background: url(../image/header-bg.png);
 }
 .separator-img {
-  background: url(../../image/separator-bg.png);
+  background: url(../image/separator-bg.png);
   background-repeat: no-repeat;
 }
 .logo {
   width: 189px;
-  background: url(../../image/logo.png);
+  background: url(../image/logo.png);
 }
 .footer-img {
-  background: url(../../image/footer-bg.png);
+  background: url(../image/footer-bg.png);
 }
 .ok-button {
-  background: url(../../image/sprite.png);
+  background: url(../image/sprite.png);
   background-position: -5px -49px;
 }
 .social-box-bg {
-  background: url(../../image/sprite.png);
+  background: url(../image/sprite.png);
   background-position: 0px 0px;
 }
 .social-box-baloon {
-  background: url(../../image/sprite.png);
+  background: url(../image/sprite.png);
   background-position: -135px -59px;
 }
 .social-box-pin {
-  background: url(../../image/sprite.png);
+  background: url(../image/sprite.png);
   background-position: -3px -90px;
 }
 .social-button-flikr {
-  background: url(../../image/social-button-flickr.png);
+  background: url(../image/social-button-flickr.png);
 }
 .social-button-face {
-  background: url(../../image/social-button-face.png);
+  background: url(../image/social-button-face.png);
 }
 .social-button-youtube {
-  background: url(../../image/social-button-youtbe.png);
+  background: url(../image/social-button-youtbe.png);
 }
 .social-button-twitter {
-  background: url(../../image/social-button-twitter);
+  background: url(../image/social-button-twitter.png);
 }
 .content {
   width: 985px;
@@ -169,7 +169,6 @@ body {
   margin: auto;
   padding: auto;
   text-align: left;
-  float: left;
   *zoom: 1;
 }
 .content:before,
@@ -184,7 +183,7 @@ body {
   width: 100%;
   height: auto;
   *zoom: 1;
-  background: url(../../image/header-bg.png);
+  background: url(../image/header-bg.png);
   background-position: 0px 0px;
 }
 .header-box:before,
@@ -206,7 +205,7 @@ body {
 .menu {
   *zoom: 1;
   height: 60px;
-  width: 600px;
+  width: 458px;
   float: right;
   margin-top: 0;
 }
@@ -219,7 +218,7 @@ body {
   clear: both;
 }
 .menu ul li {
-  background: url(../../image/separator-bg.png);
+  background: url(../image/separator-bg.png);
   background-repeat: no-repeat;
   float: left;
   padding-top: 30px;
@@ -245,7 +244,7 @@ body {
   *zoom: 1;
   margin: auto;
   padding: auto;
-  background: url(../../image/footer-bg.png);
+  background: url(../image/footer-bg.png);
   background-position: 0px 0px;
 }
 .footer-box:before,
@@ -284,34 +283,33 @@ body {
   font-size: 12px;
 }
 .slider-box {
-  display: inline;
-  width: 66.66666667%;
-  margin: 0 0%;
+  width: 711px;
   height: 247px;
   float: left;
-  background: url(../../image/slider02.png);
+  background: url(../image/slider02.png);
 }
 .search-box {
   height: 23px;
   margin-bottom: 15px;
 }
 .search-box input {
-  width: 250px;
+  width: 189px;
   height: 19px;
   background-color: #e6e6e6;
   color: #fff;
 }
 .search-box button {
-  background: url(../../image/sprite.png);
+  background: url(../image/sprite.png);
   background-position: -5px -49px;
   width: 31px;
   height: 22px;
   border: none;
 }
 .client-box {
+  width: 234px;
   height: 207px;
   clear: both;
-  background: url(../../image/bgClientes.png);
+  background: url(../image/cliente-bg.png);
 }
 .article-main-box {
   width: 100%;
@@ -330,20 +328,26 @@ body {
   clear: both;
 }
 .left-box {
-  display: inline;
   float: left;
-  width: 33.33333333%;
-  margin: 0 0%;
+  width: 234px;
   height: auto;
+  margin: 0 0 0 27px;
 }
 .info-box {
-  display: inline;
-  float: left;
-  width: 100%;
-  margin: 0 0%;
+  width: 980px;
+  *zoom: 1;
   height: 107px;
-  background: url(../../image/info-bg.png);
+  background: url(../image/info-bg.png);
   margin: 30px 0 30px 0;
+  float: left;
+}
+.info-box:before,
+.info-box:after {
+  content: "";
+  display: table;
+}
+.info-box:after {
+  clear: both;
 }
 .info-box .dinfo {
   width: auto;
@@ -360,12 +364,12 @@ body {
   height: 16px;
 }
 .info-box button {
-  background: url(../../image/search-button.png);
+  background: url(../image/search-button.png);
   width: 89px;
   height: 22px;
 }
 .info-box input[type='checkbox'] {
-  background: url(../../image/check-on.png);
+  background: url(../image/check-on.png);
   width: 15px;
   height: 15px;
 }
@@ -395,7 +399,7 @@ body {
   float: left;
   height: 190px;
   padding: 10px;
-  background: url(../../image/join-bg.png);
+  background: url(../image/join-bg.png);
 }
 .join-box h4 {
   color: #d0d0d0;
@@ -410,7 +414,7 @@ body {
   height: 187px;
   float: left;
   padding: 10px;
-  background: url(../../image/new-bg.png);
+  background: url(../image/new-bg.png);
   margin-left: 30px;
 }
 .news-locaweb h4 {
@@ -444,9 +448,10 @@ body {
   z-index: 5;
 }
 .social-box .content-social {
-  height: 100%;
-  width: 100%;
-  margin: 30px 0 0 0;
+  height: 182px;
+  width: 96%;
+  background-color: #fff;
+  margin: 16px 0 0 10px;
   float: left;
 }
 .social-box .social-button {
@@ -469,16 +474,17 @@ body {
   display: none;
 }
 .social-box .social-button .flikr-box {
-  background: url(../../image/social-button-flickr.png);
+  background: url(../image/social-button-flickr.png);
 }
 .social-box .social-button .face-box {
-  background: url(../../image/social-button-face.png);
+  background: url(../image/social-button-face.png);
 }
 .social-box .social-button .youtube-box {
-  background: url(../../image/social-button-youtbe.png);
+  background: url(../image/social-button-youtbe.png);
 }
 .social-box .social-button .twitter-box {
-  background: url(../../image/social-button-twitter);
+  background: url(../image/social-button-twitter.png);
+  margin: -151px 0 0 0;
 }
 .social-box-bottom {
   width: 100%;
@@ -486,7 +492,7 @@ body {
   float: left;
 }
 .social-box-bottom .ballon {
-  background: url(../../image/sprite.png);
+  background: url(../image/sprite.png);
   background-position: -135px -59px;
   width: 50px;
   height: 27px;
@@ -494,16 +500,14 @@ body {
   float: left;
 }
 .social-pin {
-  background: url(../../image/sprite.png);
-  background-position: -3px -90px;
-  width: 151px;
-  height: 39px;
+  background-image: url(../image/pin-flicker.png);
+  width: 137px;
+  height: 69px;
   float: left;
-  margin: -47px 0 0 121px;
+  margin: -54px 0 0 152px;
 }
 .wrap {
   max-width: 100%;
-  background: #99ccff;
 }
 body {
   margin: 0;
@@ -584,5 +588,5 @@ ul#boxes li {
   width: 105px;
 }
 .join-box {
-  background: url(../../image/join-bg.png);
+  background: url(../image/join-bg.png);
 }
