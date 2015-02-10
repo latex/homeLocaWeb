@@ -145,11 +145,11 @@ body {
 }
 .social-box-baloon {
   background: url(../../image/sprite.png);
-  background-position: -135px -38px;
+  background-position: -135px -59px;
 }
 .social-box-pin {
   background: url(../../image/sprite.png);
-  background-position: 0px 0px;
+  background-position: -3px -90px;
 }
 .content {
   width: 980px;
@@ -418,34 +418,39 @@ body {
 }
 .social-box {
   width: 315px;
-  height: 237px;
+  height: 240px;
   float: left;
   border-radius: 5px;
   margin: 0px 0 30px 30px;
-  background-color: blue;
+  background-color: #fff;
 }
 .social-box .social-container {
-  width: 100px;
-  height: 190px;
-  background-color: #99ccff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 260px;
+  height: 213px;
+  background-color: #F0F0F0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   float: left;
+  z-index: 5;
 }
 .social-box .content-social {
-  height: 154px;
+  height: 100%;
   width: 100%;
   margin: 30px 0 0 0;
   float: left;
 }
 .social-box .social-button {
-  background-color: red;
-  width: 37px;
-  height: 50px;
+  background-color: #D3D3D3;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 40px;
+  height: 213px;
   float: left;
+  z-index: 4;
+  margin: 0 0 0 0px;
 }
 .social-box .social-button .social-button-item {
-  height: 36px;
+  height: 44px;
   width: 36px;
   margin: 10px 0 0 0;
   float: left;
@@ -467,16 +472,24 @@ body {
 }
 .social-box-bottom {
   width: 100%;
-  height: 50px;
-  background-color: black;
+  height: 27px;
   float: left;
 }
 .social-box-bottom .ballon {
   background: url(../../image/sprite.png);
-  background-position: -135px -38px;
+  background-position: -135px -59px;
   width: 50px;
-  height: 50px;
+  height: 27px;
   margin: 0 0 0 20px;
+  float: left;
+}
+.social-pin {
+  background: url(../../image/sprite.png);
+  background-position: -3px -90px;
+  width: 151px;
+  height: 39px;
+  float: left;
+  margin: -47px 0 0 121px;
 }
 .wrap {
   max-width: 995px;
