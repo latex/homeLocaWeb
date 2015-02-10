@@ -151,6 +151,9 @@ body {
   background: url(../../image/sprite.png);
   background-position: -3px -90px;
 }
+.social-button-flikr {
+  background: url(/image/social-button-flickr.png);
+}
 .content {
   width: 980px;
   height: auto;
@@ -459,7 +462,7 @@ body {
   display: none;
 }
 .social-box .social-button .flikr-box {
-  background-color: pink;
+  background: url(/image/social-button-flickr.png);
 }
 .social-box .social-button .face-box {
   background-color: blue;
