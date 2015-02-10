@@ -4,8 +4,8 @@
 @gutter-width: 0;
 @columns: 12;
 .wrap {
-	max-width: @wrap;
-	margin: 0 auto;
+	max-width: 100%;
+    background: #99ccff;
 }
 
 @gridsystem-width: (@column-width*@columns) + (@gutter-width*@columns) * 1px;
@@ -25,8 +25,9 @@
 }
 
 body {
-	width: 100%;
-	.clearfix;
+    margin:0;
+padding:0;
+text-align:center; /* hack para o IE */
 }
 
 .row(@columns:@columns) {
